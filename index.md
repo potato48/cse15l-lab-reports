@@ -18,7 +18,7 @@ Yoooooo
 - So much Filler
 
 [THIS IS DEFINITELY TRUSTWORTHY](https://www.example.com)
-![OOPS!](https://static.wikia.nocookie.net/the-streets-roblox/images/9/9e/Amogus.jpg/revision/latest?cb=20210409100921)
+![OOPS!](https://ih1.redbubble.net/image.2140249604.8955/st,small,507x507-pad,600x600,f8f8f8.jpg)
 `System.out.println("Hello World");`
 
 
