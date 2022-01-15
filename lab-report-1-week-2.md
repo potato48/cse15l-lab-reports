@@ -49,6 +49,9 @@ Running `cd ssh` for instance moves the directory that you're in.
 Running `ls` prints out all the files and folders within the directory that you're in.
 ![OOPS!](ls.png)
 
+You can also enter the command `exit` to log out of the remote server.  
+![oops](exit.png)
+
 ## Moving Files with scp
 ---
 First create a file on your computer called WhereAmI.java with the following code:
