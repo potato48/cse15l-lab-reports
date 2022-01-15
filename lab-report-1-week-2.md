@@ -30,7 +30,7 @@ In Visual Studio Code, enter the following command in a terminal with the bracke
 $ ssh cs15lwi22[]@ieng6.ucsd.edu
 ```
 
-If it is your first time connecting to this server, you'll likely get a message asking if you want to continue connecting. Type in `yes`, hit enter, and type in and enter your password. Your terminal should then look something like the following image with lines about the previously mentioned message:
+If it is your first time connecting to this server, you'll likely get a message asking if you want to continue connecting. Type in `yes`, hit enter, and type in and enter your password. Your terminal should then look something like the following image along with the lines about the previously mentioned message:
 ![OOPS!](image47.png)
 
 ## Trying Some Commands
