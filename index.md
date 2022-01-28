@@ -32,7 +32,8 @@ public class TestCollection {
 }
 ```
 
-[Lab Report 1](Lab%20Report%201%20-%20Week%202/lab-report-1-week-2.html)
-[Lab Report 1](https://potato48.github.io/cse15l-lab-reports/Lab%20Report%201%20-%20Week%202/lab-report-1-week-2.html)
+[Lab Report 1](Lab%20Report%201%20-%20Week%202/lab-report-1-week-2.html) 
+
+Alternate link to lab report 1: [Lab Report 1](https://potato48.github.io/cse15l-lab-reports/Lab%20Report%201%20-%20Week%202/lab-report-1-week-2.html)
 
 
