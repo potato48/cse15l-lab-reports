@@ -7,8 +7,8 @@
 
 ## Installing VScode 
 ---
-Go to the following link and follow the instructions to download Visual Studio Code for your operating system. 
-[https://code.visualstudio.com/](https://code.visualstudio.com/)
+Go to the following link and follow the instructions to download [Visual Studio Code](https://code.visualstudio.com/) for your operating system. 
+
 
 After VS Code is installed, you should be able to start VS Code and arrive a window that looks similar to the picture shown below.
 
@@ -22,8 +22,8 @@ If you are on Windows, you must first install the OpenSSH client which can be fo
 
 ![OOPS!](openssh.png)
 
-Then look up your account for CSE15L at:
-[https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php)
+Then look up your [account](https://sdacs.ucsd.edu/~icc/index.php) for CSE15L.
+
 
 In Visual Studio Code, enter the following command in a terminal with the brackets replaced with the corresponding letters in your account:
 ```
@@ -69,13 +69,14 @@ Running it with `java` and `javac` on your computer will give you details about 
 ![OOPS!](examplewhere.png)
 
 Next, in the same terminal in the directory where you created the file, run the following command with your own username (in place of the brackets):  
-`scp WhereAmI.java cs15lwi22[]]@ieng6.ucsd.edu:~/`
+`scp WhereAmI.java cs15lwi22[]@ieng6.ucsd.edu:~/`
 
 If you then connect to the server like before and enter `ls`, the WhereAmI.java file should be there. While connected to the server, you can then run `java` and `javac` and it will run on the server's computer.
   
   
-## Setting an SSH Key
+## Setting an SSH Key 
 ---
+The following instructions are designed for [Windows](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation). 
 On your computer, enter the following command to generate an SSH key:  
 `ssh-keygen -t ed25519`  
 Hit enter twice to save the file with no passphrase. Your terminal should look something like this:
@@ -112,6 +113,28 @@ javac WhereAmI.java
 java WhereAmI.java
 ls
 ```
+
+Putting everything together, you can edit, save, and run a program remotely by: 
+
+1. Prewrite `scp [File Name].java cs15lwi22[]@ieng6.ucsd.edu:~/; ssh cs15lwi22[]@ieng6.ucsd.edu "javac [File Name].java; java [File Name]` with the parts in brackets replaced with the file you want to run or your username in the account on a seperate text document.
+2. Save the file with Ctrl + s (2 keypresses)
+3. Click on the text document with the command
+4. Click and highlight the command.
+5. Copy via Ctrl + c (2 keypresses).
+6. Click on VS Code.
+7. Click on the terminal to shift focus.
+8. Paste via Ctrl + v (2 keypresses)
+9. Press enter to run the command.
+
+The initial command that you need to write will vary the amount of keypresses needed depending on the number of files, whether you want to run it remotely, etc, but the steps afterwards take 11 keypresses/mouse clicks. Additionally, if you need to run the program again (after another edit & save), you can use the Up and Down arrow keys to bring up the command you just used:
+1. Click on the terminal to shift focus to it.
+2. Tap the Up arrow key to get back to the original command (best case adds 1 keypress, worst case adds way more than the first method)
+3. Press enter to run the command. 
+
+Thus, if you've already used the command once, you can get the process down to 3 keypresses/mouse clicks.
+
+
+
 
 
 
