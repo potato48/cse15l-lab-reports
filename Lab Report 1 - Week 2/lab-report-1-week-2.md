@@ -18,7 +18,7 @@ After VS Code is installed, you should be able to start VS Code and arrive a win
 
 ## Remotely Connecting
 ---
-If you are on Windows, you must first install the OpenSSH client which can be found by going to Windows' Settings > Apps & Features > Optional Features 
+If you are on Windows, you must first install the [OpenSSH client](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) which can be found by going to Windows' Settings > Apps & Features > Optional Features 
 
 ![OOPS!](openssh.png)
 
