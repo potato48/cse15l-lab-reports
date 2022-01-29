@@ -5,7 +5,7 @@
 ![image broke](currindexbugfix.png)
 [Test 3](https://github.com/potato48/markdown-parse/blob/main/test-file3.md) broke this version of the program (would run into an infinite loop).
 ![image broke](infloop.png)
-The bug was that the indexOf calls for the parentheses and brackets would return -1 if the next one couldn't be found; however, currentIndex would keep being set to that returned value. As a result, the while loop would never end, and the program would keep on running. With ``test-file3.md``, tehre are no parentheses after the brackets, so the indexOf calls that search for parentheses would return -1, currentIndex would be set to that value, and the while loop would keep running.
+The bug was that the indexOf calls for the parentheses and brackets would return -1 if the next one couldn't be found; however, currentIndex would keep being set to that returned value. As a result, the while loop would never end, and the program would keep on running. With ``test-file3.md``, there are no parentheses after the brackets, so the indexOf calls that search for parentheses would return -1, currentIndex would be set to that value, and the while loop would keep running.
 ## Code Change 2 
 ---
 ![image broke](imagecheckpart1.png)
