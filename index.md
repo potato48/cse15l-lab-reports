@@ -37,5 +37,6 @@ public class TestCollection {
 Alternate link to lab report 1: [Lab Report 1](https://potato48.github.io/cse15l-lab-reports/Lab%20Report%201%20-%20Week%202/lab-report-1-week-2.html)
 
 [Lab Report 2](Lab%20Report%202%20-%20Week%204/index.html)
+[Lab Report 3](Lab%20Report%203%20-%20Week%206/index.html)
 
 
