@@ -2,7 +2,7 @@
 
 ## Streamlining ssh Configuration 
 ![oops](ssh-config-before.png) 
-Previously, there was one other alias in my config file that, in effect, let my leave out my username when using the `ssh` command. 
+Previously, there was one other alias in my config file that, in effect, let me leave out my username when using the `ssh` command. 
 
  <br>
 
