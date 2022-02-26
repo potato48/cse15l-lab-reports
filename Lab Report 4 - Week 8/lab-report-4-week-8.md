@@ -1,5 +1,9 @@
 # Lab Report 4
 
+[My Repo](https://github.com/potato48/markdown-parse)
+
+[Reviewed repo](https://github.com/LippsVega/markdown-parse)
+
 ## Snippet/Test 1
 ### **Expected result:** ``[`google.com, google.com, ucsd.edu]``
 ![rip](preview-1.png)
