@@ -10,7 +10,7 @@ Test File: ``500.md``
 
 The provided implmentation was correct. The expected output is ``[#fragment, http://example.com#fragment, http://example.com?foo=3#frag]``
 
-My implementation was incorrect as it gave ``[]`` where as
+My implementation was incorrect as it gave ``[]`` whereas
 the provided implmentation gave the expected result.
 
 The bug is that one of the conditions before a link is added in my implementation requires the URL inside the parentheses to contain ``.html`` or ``https`` which doesn't cover all possible links. That results in the URLs of all three links in ``500.md`` being skipped.
@@ -36,7 +36,7 @@ Test File: ``14.md``
 
 The expected output is ``[]``
 
-The provided implmentation gave ``[/foo]`` whereas my implmentation have the expected result ``[]``
+The provided implmentation gave ``[/foo]`` whereas my implmentation gave the expected result ``[]``
 
 The bug with the provided implementation is that it doesn't check the character that comes before the open bracket of a supposed link. As a result, it interprets line 3 of ``14.md`` as a valid link. The same issue would also arise if a markdown file had an image as the syntax is the same format as line 3 but with an ``!`` instead of ``\``
 
