@@ -13,7 +13,7 @@ The provided implmentation was correct. The expected output is ``[#fragment, htt
 My implementation was incorrect as it gave ``[]`` where as
 the provided implmentation gave the expected result.
 
-The bug is that the one of the conditions before a link is added in my implementation requires the URL inside the parentheses to contain ``.html`` or ``https`` which doesn't cover all possible links. That results in the URLs of all three links in ``500.md`` to be skipped.
+The bug is that one of the conditions before a link is added in my implementation requires the URL inside the parentheses to contain ``.html`` or ``https`` which doesn't cover all possible links. That results in the URLs of all three links in ``500.md`` to be skipped.
 
 
 ```
