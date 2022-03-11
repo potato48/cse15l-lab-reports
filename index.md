@@ -42,4 +42,6 @@ Alternate link to lab report 1: [Lab Report 1](https://potato48.github.io/cse15l
 
 [Lab Report 4](Lab%20Report%204%20-%20Week%208/lab-report-4-week-8.html)
 
+[Lab Report 5](Lab%20Report%205%20-%20Week%2010/lab-report-5-week-10.html)
+
 
