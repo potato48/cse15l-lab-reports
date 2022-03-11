@@ -38,7 +38,7 @@ The expected output is ``[]``
 
 The provided implmentation gave ``[/foo]`` whereas my implmentation gave the expected result ``[]``
 
-The bug with the provided implementation is that it doesn't check the character that comes before the open bracket of a supposed link. As a result, it interprets line 3 of ``14.md`` as a valid link. The same bug would also arise if a markdown file had an image as the syntax is the same format as line 3 but with an ``!`` instead of ``\``
+The bug with the provided implementation is that it doesn't check the character that comes before the open bracket of a supposed link. As a result, it interprets line 3 of ``14.md`` as a valid link. The same bug would also cause a markdown file that has an image to give incorrect results as the syntax is the same format as line 3 but with an ``!`` instead of ``\``
 
 Line 3: ``\[not a link](/foo)``
 
